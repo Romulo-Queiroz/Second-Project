@@ -1,9 +1,9 @@
 const hamburguer = document.querySelector('.hamburguer')
-const headerUl = document.querySelector('.header-ul')
+const navUl = document.querySelector('.nav-ul')
 
 hamburguer.addEventListener('click', () =>{
     hamburguer.classList.toggle('active')
-    headerUl.classList.toggle('show')
+    navUl.classList.toggle('show')
 } )
 
 // Criando menu hamburguer//
