@@ -1,73 +1,59 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Store</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <header id="header">
-        <div class="container">
-            <nav class="header-nav">
-                <div class="logo">
-                    <img src="imagens/logo.svg" alt="Logo">
-                </div>
-                <div class="header-ul">
-                    <ul>
-                        <li><a href="#">HOMEM</a></li>
-                        <li><a href="#">MULHER</a></li>
-                        <li><a href="#">CRIANÇA</a></li>
-                        <li><a href="#">CUSTOMIZAR</a></li>
-                    </ul>
-                </div>
-                <input type="search" name="Pesquisar" id="pesquise" value="Pesquisar">
-                <div class="hamburguer">
-                    <span></span>
-                </div>
-            </nav>
-        </div>
-    </header>
-
-     <main>
-        <section>
-            <div class="container-row">
-                
-                <div class="text-container">
-                    <h1>Tênis Esportivo Para Corrida
-                        Top</h1>
-                    <p>Esse tênis tem o intuito de te deixar ainda mais fitness, focado, e musculoso.</p>
-                    <h2>R$ 1.000,00</h2>
-                    <button id="botao">COMPRAR</button>
-                </div>
-                <div class="container-row-img">
-                    <div class="img-principal">
-                        <img src="imagens/tenis-1-ampliado.png" alt="">
-                    </div>
-                    <div class="miniatura">
-                        <img src="imagens/tenis-1-galeria.png" alt="" class="tenis1">
-                        <img src="imagens/tenis-2-galeria.png" alt="imagem">
-                        <img src="imagens/tenis-3-galeria.png" alt="" class="tenis3">
-                    </div>
-                </div>
+<html lang="PT-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TenisShope</title>
+  </head>
+  <body>
+   
+      <header id="hero-header">
+        <nav class="nav-bar">
+          <!-- Logo -->
+          <div class="logo">
+            <img src="./imagens/favicon.ico" alt="" />
+          </div>
+          <!-- Menu -->
+          <div class="menu-bar">
+            <ul>
+              <li><a href="#">HOMEM</a></li>
+              <li><a href="#">MULHER</a></li>
+              <li><a href="#">CRIANÇA</a></li>
+              <li><a href="#">CUSTOMIZAR</a></li>
+            </ul>
+          </div>
+          <!-- Input de Pesquisa -->
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="search"id="nav-search"name="pesquisar"value="pesquisar"/>
+          </div>
+          <img src="./icons/icon-bag.svg" alt="icon-bag" />
+        </nav>
+      </header>
+      <main id="hero-main">
+        <div class="container-main">
+          <div class="main-ampliada">
+            <img class="main1" src="./imagens/tenis-1-ampliado.png" alt="">
+          </div>
+            <img class="main2" src="./imagens/tenis-2-galeria.png" alt="">
+            <div>
+              <img class="main3" src="./imagens/tenis-1-galeria.png" alt="">
             </div>
-        </section>
-    </main>
+            <img class="main4" src="./imagens/tenis-3-galeria.png" alt="">
+          </div>
+          <div class="text-container">
+            <h1>Tênis Esportivo Para Corrida Top</h1>
+            <p>Esse tênis tem o intuito de te deixar ainda mais fitness, focado, e musculoso.</p>
+            <h2>R$ 1.000,00</h2>
+          </div>
+      </main>
+    </div>
 
-    <footer class="rodape">
-        <img src="imagens/img-video.png" alt="">
-        <h3>Twitter</h3>
-        <h3>Instagram</h3>
-        <h3>Youtube</h3>
-        <h3>Facebook</h3>
-        <div class="rodape-color">
-            <h3>EXPLORE MAIS <img src="imagens/icon-arrow.svg" alt=""></h3>
-        </div>
-    </footer>
-    <script src="main.js"></script>
-</body>
-
+    <script
+      src="https://kit.fontawesome.com/2d36b8c42c.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
