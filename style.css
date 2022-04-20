@@ -25,6 +25,15 @@
     right: 0;
     font-weight: bold;
 }
+
+.header {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-weight: bold;
+}
 body {
     background-color: #E5E5E5;
     ;
@@ -183,7 +192,7 @@ nav {
     top: 914px;
 }
 
-/* @media (max-width: 1228px) and (min-width: 998px) {
+@media (max-width: 1228px) and (min-width: 998px) {
     .container {
         flex-direction: column;
     }
@@ -217,7 +226,11 @@ nav {
     footer {
         flex-direction: column;
     }
+<<<<<<< HEAD
 } */
+=======
+}
+>>>>>>> parent of 3497dea (update)
 
 @media (max-width: 998px) {
     .nav-ul.show{
