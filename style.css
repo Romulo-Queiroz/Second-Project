@@ -75,6 +75,12 @@ nav {
     font-weight: 700;
 }
 
+.pesquise{
+    height: 30px;
+    width: 200px;
+    display: flex;
+}
+
 /* Configurando menu Mobile */
 .hamburguer {
     display: flex;
@@ -212,41 +218,7 @@ nav {
     position:relative;
 }
 
-/* @media (max-width: 1228px) and (min-width: 998px) {
-    .container {
-        flex-direction: column;
-    }
-
-    .text-container {
-        width: 100%;
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 28px;
-    }
-
-    .text-container h1,
-    .text-container h2,
-    .text-container p {
-        text-align: center;
-        flex-direction: column;
-    }
-
-    .container-img {
-        flex-direction: column;
-        display: 100%;
-    }
-
-    .miniatura {
-        flex-direction: column;
-        display: 100%;
-    }
-
-    footer {
-        flex-direction: column;
-    }
-} */
+/* Designer para celular */
 
 @media (max-width: 998px) {
     .nav-ul.show{
