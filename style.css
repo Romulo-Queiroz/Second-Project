@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:wght@100&display=swap");
+
+/*Configurações Globais*/
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +8,7 @@
   list-style-type: none;
   text-decoration: none;
 }
+/* Configuração padrão*/
 :root {
   --button: #ff0000;
   --background: #e5e5e5;
@@ -34,9 +37,16 @@
     right: 0;
     font-weight: bold;
 }
+.logo {
+    position: relative;
+    Width:52px;
+    Height:36.4px;
+    Top: 39px;
+    Left: 60px;
+}
+
 body {
     background-color: #E5E5E5;
-    ;
     font-family: 'Roboto';
     text-decoration: none;
 }
@@ -122,10 +132,6 @@ nav {
     transform: rotate(-225deg);
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-}
 
 .container {
     display: flex;
@@ -226,11 +232,7 @@ nav {
     footer {
         flex-direction: column;
     }
-<<<<<<< HEAD
-} */
-=======
 }
->>>>>>> parent of 3497dea (update)
 
 @media (max-width: 998px) {
     .nav-ul.show{
