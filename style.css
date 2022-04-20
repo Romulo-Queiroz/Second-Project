@@ -19,7 +19,13 @@
     margin: 0;
     padding: 0;
 }
-
+     /*  Padrão body*/
+body {
+    background-color: #E5E5E5;
+    font-family: 'Roboto';
+    text-decoration: none;
+}
+     /* Configurando Menu */
 .header {
     text-align: center;
     position: absolute;
@@ -38,41 +44,38 @@
     font-weight: bold;
 }
 .logo {
+    display: flex;
     position: relative;
-    Width:52px;
+
+    Width:55px;
     Height:36.4px;
-    Top: 39px;
-    Left: 60px;
+    Top: 19px;
+    Left: 20px;
 }
 
-body {
-    background-color: #E5E5E5;
-    font-family: 'Roboto';
-    text-decoration: none;
-}
-
+ /* Configurando Menu */
 nav {
     max-width: 14320vw;
     min-width: 100vmin;
-    padding-bottom: 40px;
+
+    padding: 15px;
+    padding-bottom: 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-
+    font-family: 'R';
 }
-
 .nav-ul ul {
     display: flex;
     gap: 29px;
     list-style-type: none;
 }
-
 .nav-ul li {
     font-size: 24px;
     font-weight: 700;
 }
 
+/* Configurando menu Mobile */
 .hamburguer {
     display: flex;
     justify-content: center;
@@ -132,15 +135,11 @@ nav {
     transform: rotate(-225deg);
 }
 
-
+     /* Configuração geral imagagens esquerda */
 .container {
     display: flex;
+    background-color: var(--background);
 }
-
-.container>div {
-    padding-top: 100px;
-}
-
 .container-img {
     background-color: #C4C4C4;
     text-align: center;
@@ -156,17 +155,23 @@ nav {
     max-height: 440px;
 }
 
+/* Configurando texto */
 .text-container {
-    width: 43%;
+    
     background-color: #e5e5e5;
     font-size: 50px;
+    padding-top: 100px;
+    width: 43%;
     height: 533px;
-
 }
 
 .text-container p {
     font-size: 16px;
-    color: #9C9696;
+    color: #757373;
+    font-weight: 700 bold;
+}
+.text-container h2{
+    font-size: 56px;
 }
 
 #botao {
@@ -175,30 +180,39 @@ nav {
     font-size: 35px;
     position: absolute;
     width: 274px;
-    height: 90px;
+    height: 80px;
     font: 'Roboto';
     font-weight: 700 bold;
 }
-
+/* Configuração do rodapé */
 .rodape {
-    color: black;
-    background-color: #E5E5E5;
-    ;
-    margin-top: 20px;
-    justify-content: space-between;
+    background-color: var(--background);
+    max-width: 14320vw;
+    position: relative;
     display: flex;
+    top: 96%;
+}
+.rodape h1{
+    color: rgb(0, 0, 0);
+    position: relative;
+    display: flex;
+    width: 80%;
 }
 
-.rodape-color {
-    background-color: black;
+.rodape-color h1{
     color: white;
-    width: 437px;
+}
+.rodape-color {
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+    width: 100%;
     height: 166px;
-    left: 1003px;
-    top: 914px;
+    display: flex;
+    position:relative;
 }
 
-@media (max-width: 1228px) and (min-width: 998px) {
+/* @media (max-width: 1228px) and (min-width: 998px) {
     .container {
         flex-direction: column;
     }
@@ -232,7 +246,7 @@ nav {
     footer {
         flex-direction: column;
     }
-}
+} */
 
 @media (max-width: 998px) {
     .nav-ul.show{
