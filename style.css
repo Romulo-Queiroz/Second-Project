@@ -2,30 +2,33 @@
 
 /*Configurações Globais*/
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style-type: none;
-  text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
 }
+
 /* Configuração padrão*/
 :root {
-  --button: #ff0000;
-  --background: #e5e5e5;
-  --main-background: #c4c4c4;
-  --text: #000;
-  --footer: #000;
-  --text-description: #9c9696;
+    --button: #ff0000;
+    --background: #e5e5e5;
+    --main-background: #c4c4c4;
+    --text: #000;
+    --footer: #000;
+    --text-description: #9c9696;
     margin: 0;
     padding: 0;
 }
-     /*  Padrão body*/
+
+/*  Padrão body*/
 body {
     background-color: #E5E5E5;
     font-family: 'Roboto';
     text-decoration: none;
 }
-     /* Configurando Menu */
+
+/* Configurando Menu */
 .header {
     text-align: center;
     position: absolute;
@@ -43,17 +46,18 @@ body {
     right: 0;
     font-weight: bold;
 }
+
 .logo {
     display: flex;
     position: relative;
 
-    Width:55px;
-    Height:36.4px;
+    Width: 55px;
+    Height: 36.4px;
     Top: 19px;
     Left: 20px;
 }
 
- /* Configurando Menu */
+/* Configurando Menu */
 nav {
     max-width: 14320vw;
     min-width: 100vmin;
@@ -65,17 +69,19 @@ nav {
     justify-content: space-between;
     font-family: 'R';
 }
+
 .nav-ul ul {
     display: flex;
     gap: 29px;
     list-style-type: none;
 }
+
 .nav-ul li {
     font-size: 24px;
     font-weight: 700;
 }
 
-.pesquise{
+.pesquise {
     height: 30px;
     width: 200px;
     display: flex;
@@ -127,25 +133,29 @@ nav {
     left: 0px;
     transition: all 200ms ease ease-in-out;
 }
-.hamburguer.active span{
+
+.hamburguer.active span {
     height: 0px;
 }
-.hamburguer.active span::before{
-    top: 0;
-    left: 0;
-    transform: rotate(-225deg);
-}
-.hamburguer.active span::after{
+
+.hamburguer.active span::before {
     top: 0;
     left: 0;
     transform: rotate(-225deg);
 }
 
-     /* Configuração geral imagagens esquerda */
+.hamburguer.active span::after {
+    top: 0;
+    left: 0;
+    transform: rotate(-225deg);
+}
+
+/* Configuração geral imagagens esquerda */
 .container {
     display: flex;
     background-color: var(--background);
 }
+
 .container-img {
     background-color: #C4C4C4;
     text-align: center;
@@ -163,7 +173,7 @@ nav {
 
 /* Configurando texto */
 .text-container {
-    
+
     background-color: #e5e5e5;
     font-size: 50px;
     padding-top: 100px;
@@ -176,7 +186,8 @@ nav {
     color: #757373;
     font-weight: 700 bold;
 }
-.text-container h2{
+
+.text-container h2 {
     font-size: 56px;
 }
 
@@ -190,6 +201,7 @@ nav {
     font: 'Roboto';
     font-weight: 700 bold;
 }
+
 /* Configuração do rodapé */
 .rodape {
     background-color: var(--background);
@@ -198,16 +210,18 @@ nav {
     display: flex;
     top: 96%;
 }
-.rodape h1{
+
+.rodape h1 {
     color: rgb(0, 0, 0);
     position: relative;
     display: flex;
     width: 80%;
 }
 
-.rodape-color h1{
+.rodape-color h1 {
     color: white;
 }
+
 .rodape-color {
     background-color: rgb(0, 0, 0);
     color: white;
@@ -215,12 +229,8 @@ nav {
     width: 100%;
     height: 166px;
     display: flex;
-    position:relative;
+    position: relative;
 }
 
 /* Designer para notebook menor até tablets */
 
-@media (max-width: 1227px) and (min-width:768px) {
-    
-       
-}
