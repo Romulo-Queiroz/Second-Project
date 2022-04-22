@@ -1,87 +1,105 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Store</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <header>
-
-        <div class="header">
-            <nav>
-                <div class="logo">
-                    <img src="imagens/favicon.ico" alt="Logo">
-                </div>
-                <div class="nav-ul">
-                    <ul>
-                        <li>HOMEM</li>
-                        <li>MULHER</li>
-                        <li>CRIANÇA</li>
-                        <li>CUSTOMIZAR</li>
-                    </ul>
-                </div>
-                <div class="pesquise">
-                    <div class="lupa">	
-                        &#128270;
-                    </div>
-                    <input type="search" name="Pesquisar" id="pesquise" value="Pesquisar">
-                </div>
-
-                <div class="hamburguer">
-                    <span></span>
-                </div>
-            </nav>
+<html lang="PT-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Store Shoes</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <header id="hero-header">
+      <nav class="nav-bar">
+        <!-- Logo -->
+        <div class="logo">
+          <img src="./imagens/favicon.ico" alt="" />
         </div>
+        <!-- Menu -->
+        <div class="menu-bar">
+          <ul>
+            <li><a href="#">HOMEM</a></li>
+            <li><a href="#">MULHER</a></li>
+            <li><a href="#">CRIANÇA</a></li>
+            <li><a href="#">CUSTOMIZAR</a></li>
+          </ul>
+        </div>
+        <!-- Input de Pesquisa -->
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input
+            type="search"
+            id="nav-search"
+            name="pesquisar"
+            placeholder="Buscar"
+          />
+        </div>
+        <img class="icons-bag" src="imagens/icone_Bag.png" alt="icon-bag" />
+        <div class="hamburguer">
+          <span></span>
+        </div>
+      </nav>
     </header>
 
+    <!-- main -->
     <main>
-        <section>
-            <div class="container">
-                <div class="text-container">
-                    <h1>Tênis <br> Esportivo <br> Para Corrida <br>
-                        Top</h1>
-                    <p>Esse tênis tem o intuito de te deixar ainda mais <br> fitness, focado, e musculoso.</p>
-                    <h2>R$ 1.000,00</h2>
-                    <button id="botao">COMPRAR</button>
-                </div>
-                <div class="container-img">
-                    <div class="img-principal">
-                        <picture>
-                            <source media="(max-width: )" srcset="">
-                            <img src="imagens/tenis-1-ampliado.png" alt="">
-                        </picture>
-                    </div>
-                    <div class="miniatura">
-                        <picture>
-                            <img src="imagens/tenis-1-galeria.png" alt="" class="tenis1">
-                            <img src="imagens/tenis-2-galeria.png" alt="imagem">
-                            <img src="imagens/tenis-3-galeria.png" alt="" class="tenis3">
-                        </picture>
-                    </div>
-                </div>
+      <section class="hero-section">
+        <div class="container-section">
+          <div class="main-ampliada">
+            <img src="./imagens/tenis-1-ampliado.png" alt="" />
+          </div>
+          <!-- div separada -->
+          <div class="main-row">
+            <div class="main2">
+              <img src="./imagens/tenis-2-galeria.png" alt="" />
             </div>
+            <div class="main3">
+              <img src="./imagens/tenis-1-galeria.png" alt="" />
             </div>
-    </main>
-    </div>
-    <footer>
-        <div class="rodape" >
-            <img src="imagens/img-video.png" alt="imagem footer">
-            <h1>Facebook</h1>
-            <h1>Instagram</h1>
-            <h1>Youtube</h1>
-            <h1>Twitter</h1>
-            <div class="rodape-color">
-                <h1>EXPLORE MAIS &rarr;</h1>
+            <div class="main4">
+              <img src="./imagens/tenis-3-galeria.png" alt="" />
             </div>
+          </div>
         </div>
-    </footer>
+      </section>
 
-    <script src="https://kit.fontawesome.com/2d36b8c42c.js" crossorigin="anonymous"></script>
-</body>
-
+      <section id="secun-section">
+        <div class="text-container">
+          <h1>Tênis Esportivo Para Corrida Top</h1>
+          <p>
+            Esse tênis tem o intuito de te deixar ainda mais fitness, focado, e
+            musculoso.
+          </p>
+          <h2>R$ 1.000,00</h2>
+          <div class="btn-comprar">
+            <input type="button" value="COMPRAR"/>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Foolter -->
+  <footer id="hero-footer">
+      <div class="container-footer">
+        <div class="footer-video">
+          <img src="./imagens/img-video.png" alt="">
+        </div>
+        <div class="footer-redes">
+          <ul>
+            <li><a href="">TWITTER</a></li>
+            <li><a href="">YOUTUBE</a></li>
+            <li><a href="">INSTAGRAM</a></li>
+            <li><a href="">FACEBOOK</a></li>
+          </ul>
+        </div>
+        <div class="footer-redes-mais">
+          <p>SABER MAIS <i class="fa-solid fa-arrow-right"></i></p>
+        </div>
+      </div>
+  </footer> 
+    <script src="main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/2d36b8c42c.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
